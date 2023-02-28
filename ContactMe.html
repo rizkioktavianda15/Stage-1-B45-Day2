@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/contact.css">
     <title>Contact Me</title>
 </head>
 <body>
     <nav>
         <div class="nav-left">
             <ul>
-                <li>DumbWays</li>
-                <li>Home</li>
+                <li><img src="assets/img/brandred.png"></li>
+                <li style="font-weight: bold;"><a href="index.html">Home</a></li>
                 <li>My Project</li>
             </ul>
         </div>
@@ -36,6 +36,7 @@
         <div>
             <label for="subject">Subject</label>
             <select id="subject">
+                <option style="display: none;"></option>
                 <option>Collaboration</option>
                 <option>Discussion</option>
                 <option>Hiring</option>
@@ -45,8 +46,8 @@
             <label for="address">Address</label>
             <textarea id="address"></textarea>
         </div>
-        <div>
-            <button>Submit Here</button>
+        <div class="buttonSubmit">
+            <button type="button">Submit Here</button>
         </div>
     </form>
 </body>
